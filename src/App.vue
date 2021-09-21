@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <the-scroller></the-scroller>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import TheScroller from "./components/TheScroller.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    TheScroller,
   },
 };
 </script>
